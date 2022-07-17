@@ -1,0 +1,569 @@
+
+h1{
+    padding: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+.background-image h5{
+    font-size: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.appProjectsPage .allProjects .projectPerent .project h3 {
+    padding: 2%; 
+}
+
+.appProjectsPage .allProjects .projectPerent .project h5{
+    padding: 3%;
+}
+
+img{
+   width: 100%;
+   height: 420px;
+   padding: 0px;
+   border-radius: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+
+.appProjectsPage {
+    width: 100%;
+    height: auto;
+    background-color: var(--primaryColor);
+}
+
+.appProjectsPage .allProjects{
+    display: flex;
+    padding-top: 5px;    
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.appProjectsPage .ipad-allProjects{
+    display: none;
+    padding-top: 5px;    
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.appProjectsPage .allProjects .projectPerent{
+    display: flex;
+    justify-content: center;
+}
+
+.appProjectsPage .allProjects .projectPerent .project{
+    width: 300px;
+    background-color: var(--primaryColor);
+    border: 3px solid var(--secondaryColor);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.8rem;
+    height: 600px;
+}  
+
+
+.appProjectsPage .allProjects .projectPerent .project:hover {
+    background-color: var(--secondaryColor);
+} 
+
+.button {
+    background-color: var(--primaryColor);
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border: 3px solid var(--secondaryColor);
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--secondaryColor);
+    border: 3px solid var(--primaryColor);
+}
+
+.project-info{
+    padding: 5%;
+}
+
+
+.gif-img{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+
+/* ----------------------------------------------------------------------
+----------------------------- MEDIA QUERES ------------------------------ 
+------------------------------------------------------------------------- */
+
+
+/*  تصميم الموقع للجوال  */
+@media screen and (max-width: 575px) {
+
+    h1{
+        padding: 3%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .background-image h5{
+        font-size: 1.37rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+    .appProjectsPage .allProjects .projectPerent .project h3 {
+        padding: 2%; 
+    }
+    
+    .appProjectsPage .allProjects .projectPerent .project h5{
+        padding: 3%;
+    }
+    
+    img{
+       width: 100%;
+       height: 420px;
+       padding: 0px;
+       border-radius: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    }
+    
+    .appProjectsPage {
+        width: 100%;
+        height: auto;
+        background-color: var(--primaryColor);
+    }
+    
+    .appProjectsPage .allProjects{
+        display: flex;
+        padding-top: 5px;    
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .appProjectsPage .ipad-allProjects{
+        display: none;
+        padding-top: 5px;    
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
+    .appProjectsPage .allProjects .projectPerent {
+        display: block;
+        justify-content: center;
+    }
+
+    .appProjectsPage .allProjects .projectPerent .project{
+        width: 300px;
+        background-color: var(--primaryColor);
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        text-align: center;
+        margin: 0.8rem;
+        height: 600px;
+    }  
+    
+    
+    .appProjectsPage .allProjects .projectPerent .project:hover {
+        background-color: var(--secondaryColor);
+    } 
+    
+    .button {
+        background-color: var(--primaryColor);
+        width: 110px;
+        height: 40px;
+        text-align: center;
+        color: white;
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    
+    .button:hover{
+        background-color: var(--secondaryColor);
+        border: 3px solid var(--primaryColor);
+    }
+    
+    .project-info{
+        padding: 5%;
+    }
+    
+    
+    .gif-img{
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+}
+
+/*  تصميم الموقع للجوال بالعرض  */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    h1{
+        padding: 3%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .background-image h5{
+        font-size: 1.37rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+    .appProjectsPage .allProjects .projectPerent .project h3 {
+        padding: 2%; 
+    }
+    
+    .appProjectsPage .allProjects .projectPerent .project h5{
+        padding: 3%;
+    }
+    
+    img{
+       width: 100%;
+       height: 420px;
+       padding: 0px;
+       border-radius: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    }
+    
+    .appProjectsPage {
+        width: 100%;
+        height: auto;
+        background-color: var(--primaryColor);
+    }
+    
+    .appProjectsPage .allProjects{
+        display: flex;
+        padding-top: 5px;    
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .appProjectsPage .ipad-allProjects{
+        display: none;
+        padding-top: 5px;    
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .appProjectsPage .allProjects .projectPerent {
+        display: block;
+        justify-content: center;
+    }
+
+    .appProjectsPage .allProjects .projectPerent .project{
+        width: 300px;
+        background-color: var(--primaryColor);
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        text-align: center;
+        margin: 0.8rem;
+        height: 600px;
+    }  
+    
+    
+    .appProjectsPage .allProjects .projectPerent .project:hover {
+        background-color: var(--secondaryColor);
+    } 
+    
+    .button {
+        background-color: var(--primaryColor);
+        width: 110px;
+        height: 40px;
+        text-align: center;
+        color: white;
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    
+    .button:hover{
+        background-color: var(--secondaryColor);
+        border: 3px solid var(--primaryColor);
+    }
+    
+    .project-info{
+        padding: 5%;
+    }
+    
+    
+    .gif-img{
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+}
+
+
+
+/*  تصميم الموقع للتابليت  */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    h1{
+        padding: 3%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .background-image h5{
+        font-size: 1.37rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+    .appProjectsPage .allProjects .projectPerent .project h3 {
+        padding: 2%; 
+    }
+    
+    .appProjectsPage .allProjects .projectPerent .project h5{
+        padding: 3%;
+    }
+    
+    img{
+       width: 100%;
+       height: 420px;
+       padding: 0px;
+       border-radius: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    }
+    
+    .appProjectsPage {
+        width: 100%;
+        height: auto;
+        background-color: var(--primaryColor);
+    }
+    
+    .appProjectsPage .allProjects{
+        display: none;
+        padding-top: 5px;    
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .appProjectsPage .ipad-allProjects{
+        display: flex;
+        padding-top: 5px;    
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        width: 100%;
+    }
+/* 
+    .appProjectsPage .allProjects .projectPerent {
+        display: block;
+        justify-content: center;
+    }
+
+    .appProjectsPage .allProjects .projectPerent .project{
+        width: 300px;
+        background-color: var(--primaryColor);
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        text-align: center;
+        margin: 0.8rem;
+        height: 600px;
+    }  
+    
+
+    
+    .appProjectsPage .allProjects .projectPerent .project:hover {
+        background-color: var(--secondaryColor);
+    }  */
+
+    .appProjectsPage .ipad-allProjects .ipad-projectPerent {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .appProjectsPage .ipad-allProjects .ipad-projectPerent .ipad-project{
+        width: 300px;
+        background-color: var(--primaryColor);
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        text-align: center;
+        margin: 0.8rem;
+        height: 600px;
+    }  
+    
+    
+    .appProjectsPage .ipad-allProjects .ipad-projectPerent .ipad-project:hover {
+        background-color: var(--secondaryColor);
+    } 
+
+    
+    .button {
+        background-color: var(--primaryColor);
+        width: 110px;
+        height: 40px;
+        text-align: center;
+        color: white;
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    
+    .button:hover{
+        background-color: var(--secondaryColor);
+        border: 3px solid var(--primaryColor);
+    }
+    
+    .project-info{
+        padding: 5%;
+    }
+    
+    
+    .gif-img{
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+}
+
+/* @media screen and (min-width: 768px) and (max-width: 991px){
+
+    h1{
+        padding: 3%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .background-image h5{
+        font-size: 1.37rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+    .appProjectsPage .ipad-allProjects .ipad-projectPerent .ipad-project h3 {
+        padding: 2%; 
+    }
+    
+    .appProjectsPage .ipad-allProjects .ipad-projectPerent .ipad-project h5{
+        padding: 3%;
+    }
+
+    
+    img{
+       width: 100%;
+       height: 420px;
+       padding: 0px;
+       border-radius: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    }
+    
+    .appProjectsPage {
+        width: 100%;
+        height: auto;
+        background-color: var(--primaryColor);
+    }
+    
+    .appProjectsPage .ipad-allProjects{
+        display: flex;
+        padding-top: 5px;    
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .appProjectsPage .allProjects{
+        display: none;
+        padding-top: 5px;    
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+
+
+    .appProjectsPage .ipad-allProjects .ipad-projectPerent {
+        display: flex;
+        justify-content: center;
+    }
+
+    .appProjectsPage .ipad-allProjects .ipad-projectPerent .ipad-project{
+        width: 300px;
+        background-color: var(--primaryColor);
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        text-align: center;
+        margin: 0.8rem;
+        height: 600px;
+    }  
+    
+    
+    .appProjectsPage .ipad-allProjects .ipad-projectPerent .ipad-project:hover {
+        background-color: var(--secondaryColor);
+    } 
+    
+    .button {
+        background-color: var(--primaryColor);
+        width: 110px;
+        height: 40px;
+        text-align: center;
+        color: white;
+        border: 3px solid var(--secondaryColor);
+        border-radius: 10px;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    
+    .button:hover{
+        background-color: var(--secondaryColor);
+        border: 3px solid var(--primaryColor);
+    }
+    
+    .project-info{
+        padding: 5%;
+    }
+    
+    
+    .gif-img{
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+} */

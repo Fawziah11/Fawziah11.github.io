@@ -31,6 +31,9 @@ function websiteDesign(){
     window.location.href = "https://www.figma.com/file/q1YBAQP6TK7GqxXGuGDnKs/TazawajnaWebsite?node-id=0%3A1";
 }
 
+function MoviesApp(){
+    window.location.href = "https://github.com/Fawziah11/movies_app";
+}
 
 function AppDesign(){
     window.location.href = "https://www.figma.com/file/U6sUAmr3Eidy7CtBMYjxUa/FitnessApp?node-id=0%3A1";
